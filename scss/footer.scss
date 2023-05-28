@@ -1,0 +1,271 @@
+.footerWrapper {
+  background-color: #481173;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footerContainer {
+  max-width: 1540px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInfo {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  // flex-wrap: wrap;
+}
+
+.footerSocial {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInfoBuyers {
+  font-size: 18px;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  max-height: 334px;
+}
+
+.footerInfoBuyersLi {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding-top: 6%;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoPartners {
+  font-size: 18px;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoPartnersLi {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding-top: 6%;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoProject {
+  font-size: 18px;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoProjectLi {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding-top: 6%;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoCompany {
+  font-size: 18px;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoCompanyLi {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding-top: 10%;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerSocialVk {
+  font-size: 18px;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerSocialVkLi {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding-top: 10%;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.footerInfoApps {
+  margin-top: 3%;
+  font-size: 18px;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.footerInfoAppsMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.footerInfoApps {
+  width: 50%;
+}
+
+.footerInfoAppsDiv1 {
+  width: 100%;
+  height: 33%;
+  background-image: url(../src/res/appStore.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background-position: 50% 50%;
+}
+
+.footerInfoAppsDiv2 {
+  width: 100%;
+  height: 33%;
+  background-image: url(../src/res/googleplay.png);
+  background-size: 70% 70%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  background-position: 50% 50%;
+}
+
+.footerInfoAppsDiv3 {
+  margin: 0 auto;
+  width: 100%;
+  height: 33%;
+  background-image: url(../src/res/appgallery.png);
+  background-size: 60% 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+}
+
+.footerSecondContainer {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% auto;
+}
+
+.footerSecondContainerInfo {
+  // margin-top: 3%;
+  font-size: 16px;
+  color: hsla(0,0%,100%,.8);
+  list-style-type: none;
+  font-weight: 100;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  line-height: 2em;
+}
+
+.footerSecondContainerInfoSecond {
+  // margin-top: 3%;
+  font-size: 16px;
+  color: hsla(0,0%,100%,.8);
+  list-style-type: none;
+  font-weight: 100;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  // word-spacing: 0.5em;
+
+  line-height: 2em;
+}
+
+.footerThirdContainer{
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.footerThirdContainerInfo{
+  line-height: 1.42857;
+margin: 0 auto;
+  font-size: 15px;
+  color: hsla(0,0%,100%,.8);
+  list-style-type: none;
+  font-weight: 100;
+  font-family: Segoe UI, -apple-system, Roboto, Helvetica Neue, Noto Sans, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.footerThirdContainerInfoSecond{
+
+}

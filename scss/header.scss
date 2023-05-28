@@ -1,0 +1,84 @@
+.headerWrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background: linear-gradient(90deg,#cb11ab,#481173);
+
+    
+}
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 2600px;
+    width: 100%;
+    height: 50px;
+}
+
+.logoHeader{
+    width: 25%;
+    height: 40px;
+    // border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: #481173;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searhHeader{
+    max-width: 1200px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 25px;
+    background-image: url(../src/res/lupa.png);
+    // background-color: rgba(0, 0, 0, 0);
+    opacity: 0.3;
+    background-size: 20px 20px;
+    background-position: 2%;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.shoppingCartHeader{
+    width: 25%;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: none;
+   
+
+}
+
+.shoppingCartHeaderImg{
+    width: 100%;
+    height: 50%;
+    background-image: url(../src/res/korzina.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.shoppingCartHeaderText{
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    opacity: 0.5;
+}

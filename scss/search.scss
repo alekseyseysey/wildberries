@@ -1,0 +1,99 @@
+.output{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.outputSearch{
+width: 90%;
+}
+
+.primerSearch {
+    margin-left: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20%;
+  }
+  
+  .imgSearch {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  .imgProductSearch {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .skidcaSearch {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-size: 30px;
+    color: red;
+    bottom: 8%;
+  }
+  
+  .korzinaSearch {
+    position: absolute;
+    border-radius: 50%;
+    width: 22%;
+    height: 15%;
+    right: 10%;
+    bottom: 8%;
+    background: linear-gradient(90deg, #cb11ab, #481173);
+    // background-color: ;
+    border: none;
+    background-image: url(../src/res/korzina.png);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: 50%;
+  }
+  
+  .cenaSearch {
+    margin: 0 auto;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .cenatovaraSearch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .lastCostSearch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: line-through;
+  }
+  
+  .nazvanieSearch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+  }

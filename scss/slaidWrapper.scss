@@ -1,0 +1,86 @@
+.slider {
+max-width: 1440px;
+margin: 0 auto;
+overflow: hidden; 
+// position: relative;
+}
+
+.sliderLine {
+  display: flex;
+  // position: relative;
+}
+
+.buttonWrapper{
+  // z-index: 60;
+  // position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.buttonNext {
+  // position: absolute;
+  z-index: 60;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 0;
+  margin: 2%;
+  border: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 18 18'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M14.26 7.97l-5.5-5.82A1 1 0 0110.22.77l7.13 7.54a1 1 0 010 1.38l-7.13 7.54a1 1 0 01-1.46-1.38l5.5-5.82H1a1 1 0 01-1-1v-.06a1 1 0 011-1h13.26z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  
+  
+}
+
+.buttonBack{
+  // position: absolute;
+    z-index: 60;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 0;
+    margin: 2%;
+    border: none;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 18 18'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M14.26 7.97l-5.5-5.82A1 1 0 0110.22.77l7.13 7.54a1 1 0 010 1.38l-7.13 7.54a1 1 0 01-1.46-1.38l5.5-5.82H1a1 1 0 01-1-1v-.06a1 1 0 011-1h13.26z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    transform: rotate(180deg);
+}
+
+
+.sliderLineImg{
+  // width: 100%;
+  border-radius: 50px;
+}
+
+.buttonCircle{
+  width: 15%;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.circle{
+ width: 20px;
+ height: 20px;
+ border: none;
+ border-radius: 10px;
+ background-color: pink;
+ 
+}
+
+.active{
+  background-color: purple;
+}
+
+.acti{
+}

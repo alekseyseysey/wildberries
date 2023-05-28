@@ -1,0 +1,33 @@
+@import url(../scss/wrapper.scss);
+@import url(../scss/header.scss);
+@import url(../scss/slaidWrapper.scss);
+@import url(../scss/topSellers.scss);
+@import url(../scss/productsWrapper.scss);
+@import url(../scss/footer.scss);
+@import url(../scss/modal-productCart.scss);
+@import url(../scss/search.scss);
+
+
+
+
+
+
+
+
+body {
+    margin: 0 auto;
+  // max-width: 1500px;
+  height: 2000px;
+  display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+}
+
+
+// .wrapper{
+//   max-width: 1500px;
+// }
+
+ .overflow{
+  overflow: hidden;
+}
